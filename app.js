@@ -52,5 +52,5 @@ if(canvas){
     canvas.addEventListener("mousemove", onMouseMove);
     canvas.addEventListener("mousedown", startPainting); //클릭하는 순간 페인팅 시작
     canvas.addEventListener("mouseup", stopPainting);
-    canvas.addEventListener("moseleave", stopPainting);
+    canvas.addEventListener("mouseleave", stopPainting);
 }
